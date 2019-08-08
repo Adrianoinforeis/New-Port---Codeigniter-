@@ -1,0 +1,77 @@
+
+@media print {
+	.nao-imprime{
+		display : none ;
+	}
+	.imprime{
+			display:block !important;
+	}
+	
+	.tela{
+		width:98%; 
+		height:480px;
+		border:none !important;
+		float:none !important;
+		padding:4px;
+		margin-top:4px;
+		margin-bottom:4px;
+		overflow:hidden !important;
+		border-radius:0px !important;
+	}
+	
+	.tela2{
+		width:99%;
+		height:100% !important;
+		float:left;
+		padding:4px;
+		margin-top:
+		4px;
+		margin-bottom:4px;
+		overflow:hidden !important;
+	}
+}
+
+.imprime{
+			display : none ;
+
+}
+
+
+
+
+.tela{
+	width:98%;
+	height:480px;
+	border:1px solid #D6D6D6;
+	float:left;
+	padding:4px;
+	margin-top:4px;
+	margin-bottom:4px;
+	overflow-x:hidden;
+	border-radius:7px
+}
+
+.tela2{
+	width:99%;
+	height:276px ;
+	float:left;
+	padding:4px;
+	margin-top:4px;
+	margin-bottom:4px;
+	overflow-x:hidden
+}
+
+.conteudo{
+    
+    width:100%;
+}
+.conteudo2{
+    
+    width:50%;
+	float:left;
+}
+.conteudo3{
+    
+    width:50%;
+	float:left;
+}

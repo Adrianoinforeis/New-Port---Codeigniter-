@@ -1,0 +1,31 @@
+somente com o bootstrap e HTML5
+1º Primeiro seré necessário 2 rquivos que estão na pasta scripts
+1ª validator.js
+2ª validator.min.js
+3º Depois
+
+**************************************************************************
+vincular os mesmo no codigo detalhe tem que ser antes da tag 
+<script src="scripts/validator.min.js"></script> 
+ <script src="scripts/validator.js"></script>
+</BODY>
+
+**************************************************************************
+4º incluir essas tags no form
+<form data-toggle="validator" role="form">
+
+**************************************************************************
+5ª e nos campos essas tags
+<input data-error="Por favor, informe seu nome." required>
+************************************************************************** 
+6ª para exibir a mensagem essa div
+<div class="help-block with-errors"></div>
+
+7º o conteúdo tem que está dentro da classe="form group">
+:EX::
+
+<div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Informe o nome"  required data-error="Por favor, informe seu nome.">
+                        <div class="help-block with-errors"></div>
+                        </div> 
